@@ -59,7 +59,7 @@ For comprehensive results and detailed performance metrics, please refer to our 
 
 ## Reference
 
-Paper: [Link to your paper]
+Paper: [Link to paper]
 
 ## Contact Information
 
