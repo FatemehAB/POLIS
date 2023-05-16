@@ -1,0 +1,26 @@
+created virtual environment CPython3.7.9.final.0-64 in 10768ms
+  creator CPython3Posix(dest=/localscratch/fabdolla.29154311.0/env, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/fabdolla/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Collecting pip
+  Using cached pip-22.0.4-py3-none-any.whl (2.1 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.0.2
+    Uninstalling pip-20.0.2:
+      Successfully uninstalled pip-20.0.2
+Successfully installed pip-22.0.4
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/cloudpickle-2.0.0+computecanada-py3-none-any.whl
+ERROR: Could not install packages due to an OSError: [Errno 103] Software caused connection abort: '/cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic'
+
+/var/spool/slurmd/job29154311/slurm_script: line 12: 22681 Bus error               (core dumped) pip install -r requirements.txt
+/var/spool/slurmd/job29154311/slurm_script: /localscratch/fabdolla.29154311.0/env/bin/pip: /localscratch/fabdolla.29154311.0/env/bin/python: bad interpreter: Transport endpoint is not connected
+/var/spool/slurmd/job29154311/slurm_script: /localscratch/fabdolla.29154311.0/env/bin/pip: /localscratch/fabdolla.29154311.0/env/bin/python: bad interpreter: Transport endpoint is not connected
+/var/spool/slurmd/job29154311/slurm_script: /localscratch/fabdolla.29154311.0/env/bin/pip: /localscratch/fabdolla.29154311.0/env/bin/python: bad interpreter: Transport endpoint is not connected
+  File "deep_Q_highway.py", line 86
+    print('\rEpisode {}\tAverage Score: {:.2f}'.format(i_episode, np.mean(scores_window)), '\tsteps: {:.2f}'.format(steps), end="")
+                                                                                                                               ^
+SyntaxError: invalid syntax

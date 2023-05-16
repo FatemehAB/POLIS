@@ -1,0 +1,15 @@
+created virtual environment CPython3.7.9.final.0-64 in 15517ms
+  creator CPython3Posix(dest=/localscratch/fabdolla.29154323.0/env, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/fabdolla/.local/share/virtualenv/seed-app-data/v1.0.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+/var/spool/slurmd/job29154323/slurm_script: line 11: 22678 Bus error               (core dumped) pip install --upgrade pip
+/var/spool/slurmd/job29154323/slurm_script: /localscratch/fabdolla.29154323.0/env/bin/pip: /localscratch/fabdolla.29154323.0/env/bin/python: bad interpreter: Transport endpoint is not connected
+/var/spool/slurmd/job29154323/slurm_script: /localscratch/fabdolla.29154323.0/env/bin/pip: /localscratch/fabdolla.29154323.0/env/bin/python: bad interpreter: Transport endpoint is not connected
+/var/spool/slurmd/job29154323/slurm_script: /localscratch/fabdolla.29154323.0/env/bin/pip: /localscratch/fabdolla.29154323.0/env/bin/python: bad interpreter: Transport endpoint is not connected
+/var/spool/slurmd/job29154323/slurm_script: /localscratch/fabdolla.29154323.0/env/bin/pip: /localscratch/fabdolla.29154323.0/env/bin/python: bad interpreter: Transport endpoint is not connected
+  File "deep_Q_highway.py", line 86
+    print('\rEpisode {}\tAverage Score: {:.2f}'.format(i_episode, np.mean(scores_window)), '\tsteps: {:.2f}'.format(steps), end="")
+                                                                                                                               ^
+SyntaxError: invalid syntax

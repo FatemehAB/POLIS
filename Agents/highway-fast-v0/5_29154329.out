@@ -1,0 +1,126 @@
+/var/spool/slurmd/job29154329/slurm_script: line 8: 21910 Bus error               (core dumped) virtualenv --no-download $SLURM_TMPDIR/env
+/var/spool/slurmd/job29154329/slurm_script: line 9: /localscratch/fabdolla.29154329.0/env/bin/activate: No such file or directory
+Defaulting to user installation because normal site-packages is not writeable
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Collecting pip
+  Using cached pip-22.0.4-py3-none-any.whl (2.1 MB)
+Installing collected packages: pip
+Successfully installed pip-22.0.4
+Defaulting to user installation because normal site-packages is not writeable
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/cloudpickle-2.0.0+computecanada-py3-none-any.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/cycler-0.11.0+computecanada-py3-none-any.whl
+Processing /home/fabdolla/.cache/pip/wheels/76/ee/9c/36bfe3e079df99acf5ae57f4e3464ff2771b34447d6d2f2148/gym-0.21.0-py3-none-any.whl
+Requirement already satisfied: highway-env==1.4 in /home/fabdolla/.local/lib/python3.7/site-packages (from -r requirements.txt (line 4)) (1.4)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/importlib_metadata-4.8.1+computecanada-py3-none-any.whl
+Processing /home/fabdolla/.cache/pip/wheels/32/aa/11/9d9b0fc563863ad507b2149e5dbea8395096275f8f49ee9363/kiwisolver-1.3.2-cp37-cp37m-linux_x86_64.whl
+Processing /home/fabdolla/.cache/pip/wheels/26/61/97/463aea5381ac68c8d917f1423764f9f4b73a832f12d7dfdb4d/matplotlib-3.4.3-cp37-cp37m-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pyparsing-3.0.4+computecanada-py3-none-any.whl
+Requirement already satisfied: python-dateutil==2.8.2 in /home/fabdolla/.local/lib/python3.7/site-packages (from -r requirements.txt (line 9)) (2.8.2+computecanada)
+Requirement already satisfied: pytz==2021.3 in /home/fabdolla/.local/lib/python3.7/site-packages (from -r requirements.txt (line 10)) (2021.3+computecanada)
+Requirement already satisfied: six==1.16.0 in /home/fabdolla/.local/lib/python3.7/site-packages (from -r requirements.txt (line 11)) (1.16.0+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2/torch-1.10.0+computecanada-cp37-cp37m-linux_x86_64.whl
+Requirement already satisfied: typing-extensions==3.10.0.2 in /home/fabdolla/.local/lib/python3.7/site-packages (from -r requirements.txt (line 13)) (3.10.0.2+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/zipp-3.6.0+computecanada-py3-none-any.whl
+Requirement already satisfied: numpy>=1.18.0 in /home/fabdolla/.local/lib/python3.7/site-packages (from gym==0.21.0->-r requirements.txt (line 3)) (1.20.1+computecanada)
+Requirement already satisfied: pandas in /home/fabdolla/.local/lib/python3.7/site-packages (from highway-env==1.4->-r requirements.txt (line 4)) (1.3.0+computecanada)
+Requirement already satisfied: pygame in /home/fabdolla/.local/lib/python3.7/site-packages (from highway-env==1.4->-r requirements.txt (line 4)) (2.0.1+computecanada)
+Requirement already satisfied: pillow>=6.2.0 in /home/fabdolla/.local/lib/python3.7/site-packages (from matplotlib==3.4.3->-r requirements.txt (line 7)) (7.1.2+computecanada)
+ERROR: Error checking for conflicts.
+Traceback (most recent call last):
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.7.9/lib/python3.7/site-packages/pip-20.0.2-py3.7.egg/pip/_vendor/pkg_resources/__init__.py", line 3021, in _dep_map
+    return self.__dep_map
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.7.9/lib/python3.7/site-packages/pip-20.0.2-py3.7.egg/pip/_vendor/pkg_resources/__init__.py", line 2815, in __getattr__
+    raise AttributeError(attr)
+AttributeError: _DistInfoDistribution__dep_map
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.7.9/lib/python3.7/site-packages/pip-20.0.2-py3.7.egg/pip/_vendor/pkg_resources/__init__.py", line 3012, in _parsed_pkg_info
+    return self._pkg_info
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.7.9/lib/python3.7/site-packages/pip-20.0.2-py3.7.egg/pip/_vendor/pkg_resources/__init__.py", line 2815, in __getattr__
+    raise AttributeError(attr)
+AttributeError: _pkg_info
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.7.9/lib/python3.7/site-packages/pip-20.0.2-py3.7.egg/pip/_internal/commands/install.py", line 517, in _warn_about_conflicts
+    package_set, _dep_info = check_install_conflicts(to_install)
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.7.9/lib/python3.7/site-packages/pip-20.0.2-py3.7.egg/pip/_internal/operations/check.py", line 114, in check_install_conflicts
+    package_set, _ = create_package_set_from_installed()
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.7.9/lib/python3.7/site-packages/pip-20.0.2-py3.7.egg/pip/_internal/operations/check.py", line 53, in create_package_set_from_installed
+    package_set[name] = PackageDetails(dist.version, dist.requires())
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.7.9/lib/python3.7/site-packages/pip-20.0.2-py3.7.egg/pip/_vendor/pkg_resources/__init__.py", line 2736, in requires
+    dm = self._dep_map
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.7.9/lib/python3.7/site-packages/pip-20.0.2-py3.7.egg/pip/_vendor/pkg_resources/__init__.py", line 3023, in _dep_map
+    self.__dep_map = self._compute_dependencies()
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.7.9/lib/python3.7/site-packages/pip-20.0.2-py3.7.egg/pip/_vendor/pkg_resources/__init__.py", line 3032, in _compute_dependencies
+    for req in self._parsed_pkg_info.get_all('Requires-Dist') or []:
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.7.9/lib/python3.7/site-packages/pip-20.0.2-py3.7.egg/pip/_vendor/pkg_resources/__init__.py", line 3014, in _parsed_pkg_info
+    metadata = self.get_metadata(self.PKG_INFO)
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.7.9/lib/python3.7/site-packages/pip-20.0.2-py3.7.egg/pip/_vendor/pkg_resources/__init__.py", line 1420, in get_metadata
+    value = self._get(path)
+  File "/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/python/3.7.9/lib/python3.7/site-packages/pip-20.0.2-py3.7.egg/pip/_vendor/pkg_resources/__init__.py", line 1616, in _get
+    with open(path, 'rb') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/fabdolla/.local/lib/python3.7/site-packages/pyparsing-2.4.7+computecanada.dist-info/METADATA'
+Installing collected packages: cloudpickle, cycler, zipp, importlib-metadata, gym, kiwisolver, pyparsing, matplotlib, torch
+  Attempting uninstall: cloudpickle
+    Found existing installation: cloudpickle 1.6.0+computecanada
+    Can't uninstall 'cloudpickle'. No files were found to uninstall.
+  Attempting uninstall: cycler
+    Found existing installation: cycler 0.10.0+computecanada
+    Can't uninstall 'cycler'. No files were found to uninstall.
+  Attempting uninstall: gym
+    Found existing installation: gym 0.18.0+computecanada
+    Can't uninstall 'gym'. No files were found to uninstall.
+  Attempting uninstall: kiwisolver
+    Found existing installation: kiwisolver 1.3.1+computecanada
+    Can't uninstall 'kiwisolver'. No files were found to uninstall.
+  Attempting uninstall: pyparsing
+    Found existing installation: pyparsing 2.4.7+computecanada
+    Can't uninstall 'pyparsing'. No files were found to uninstall.
+  Attempting uninstall: matplotlib
+    Found existing installation: matplotlib 3.3.4+computecanada
+    Can't uninstall 'matplotlib'. No files were found to uninstall.
+  Attempting uninstall: torch
+    Found existing installation: torch 1.9.0+computecanada
+    Uninstalling torch-1.9.0+computecanada:
+ERROR: Could not install packages due to an EnvironmentError: [Errno 2] No such file or directory: '/home/fabdolla/.local/lib/python3.7/site-packages/caffe2/'
+
+Defaulting to user installation because normal site-packages is not writeable
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already satisfied: highway_env in /home/fabdolla/.local/lib/python3.7/site-packages (1.4)
+Requirement already satisfied: gym in /home/fabdolla/.local/lib/python3.7/site-packages (from highway_env) (0.21.0)
+Requirement already satisfied: pandas in /home/fabdolla/.local/lib/python3.7/site-packages (from highway_env) (1.3.0+computecanada)
+Requirement already satisfied: numpy in /home/fabdolla/.local/lib/python3.7/site-packages (from highway_env) (1.20.1+computecanada)
+Requirement already satisfied: matplotlib in /home/fabdolla/.local/lib/python3.7/site-packages (from highway_env) (3.4.3)
+Requirement already satisfied: pygame in /home/fabdolla/.local/lib/python3.7/site-packages (from highway_env) (2.0.1+computecanada)
+Requirement already satisfied: importlib-metadata>=4.8.1; python_version < "3.8" in /home/fabdolla/.local/lib/python3.7/site-packages (from gym->highway_env) (4.8.1+computecanada)
+Requirement already satisfied: cloudpickle>=1.2.0 in /home/fabdolla/.local/lib/python3.7/site-packages (from gym->highway_env) (2.0.0+computecanada)
+Requirement already satisfied: pytz>=2017.3 in /home/fabdolla/.local/lib/python3.7/site-packages (from pandas->highway_env) (2021.3+computecanada)
+Requirement already satisfied: python-dateutil>=2.7.3 in /home/fabdolla/.local/lib/python3.7/site-packages (from pandas->highway_env) (2.8.2+computecanada)
+Requirement already satisfied: kiwisolver>=1.0.1 in /home/fabdolla/.local/lib/python3.7/site-packages (from matplotlib->highway_env) (1.3.2)
+Requirement already satisfied: pillow>=6.2.0 in /home/fabdolla/.local/lib/python3.7/site-packages (from matplotlib->highway_env) (7.1.2+computecanada)
+Requirement already satisfied: pyparsing>=2.2.1 in /home/fabdolla/.local/lib/python3.7/site-packages (from matplotlib->highway_env) (3.0.4+computecanada)
+Requirement already satisfied: cycler>=0.10 in /home/fabdolla/.local/lib/python3.7/site-packages (from matplotlib->highway_env) (0.11.0+computecanada)
+Requirement already satisfied: typing-extensions>=3.6.4; python_version < "3.8" in /home/fabdolla/.local/lib/python3.7/site-packages (from importlib-metadata>=4.8.1; python_version < "3.8"->gym->highway_env) (3.10.0.2+computecanada)
+Requirement already satisfied: zipp>=0.5 in /home/fabdolla/.local/lib/python3.7/site-packages (from importlib-metadata>=4.8.1; python_version < "3.8"->gym->highway_env) (3.6.0+computecanada)
+Requirement already satisfied: six>=1.5 in /home/fabdolla/.local/lib/python3.7/site-packages (from python-dateutil>=2.7.3->pandas->highway_env) (1.16.0+computecanada)
+Defaulting to user installation because normal site-packages is not writeable
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already satisfied: numpy in /home/fabdolla/.local/lib/python3.7/site-packages (1.20.1+computecanada)
+Defaulting to user installation because normal site-packages is not writeable
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already satisfied: torch in /home/fabdolla/.local/lib/python3.7/site-packages (1.9.0+computecanada)
+Requirement already satisfied: typing-extensions in /home/fabdolla/.local/lib/python3.7/site-packages (from torch) (3.10.0.2+computecanada)
+Traceback (most recent call last):
+  File "deep_Q_highway.py", line 2, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
