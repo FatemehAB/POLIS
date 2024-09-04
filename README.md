@@ -55,11 +55,11 @@ The programs collected during the study are stored in the ```study-LunarLander``
 You can choose to use one of those programs or create your own program based on the Domain-Specific Language (DSL) defined in our paper for playing Lunar Lander or Highway games.
 ## Results
 
-For comprehensive results and detailed performance metrics, please refer to our paper [link to paper].
+For comprehensive results and detailed performance metrics, please refer to the paper.
 
-## Reference
+## References
 
-Paper: [Link to paper]
+See the full paper at IJCAI 2023 website: https://www.ijcai.org/proceedings/2023/0328.pdf
 
 ## Contact Information
 
